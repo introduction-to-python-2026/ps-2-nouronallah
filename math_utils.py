@@ -1,10 +1,10 @@
 def find_max_number(num1, num2, num3):
     if num1 > num2 and num1 > num3:
-      print("num 1")
+      return ("num 1")
     elif num2> num3 and num2 > num3:
-      print("num 2")
+      return ("num 2")
     else:
-      print(num3)
+      return (num3)
 
 def find_mean(num1, num2, num3):
     find_mean = (num1 + num2 + num3) / 3
